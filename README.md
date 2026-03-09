@@ -16,9 +16,9 @@ piweba4y.prodigy.com - - [01/Aug/1995:00:00:10 -0400] "GET /images/launchmedium.
 
 Fields extracted:
 - host
--timestamp
--method
--url
+- timestamp
+- method
+- url
 - status
 - size
 
