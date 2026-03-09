@@ -32,11 +32,25 @@ Fields extracted:
 ## Projecct WorkFlow
 Raw NASA log files --> Data preprocessing --> Structured Dataset --> Data Analysis --> visualizations.
 
+## Data preprocessing
+Raw NASA web server logs were processed using Pyspark.
+Steps performed:(Environment used-Jupyter notebook)
+- Loaded raw log dataset
+- Parsed log entries using Regular Expressions
+- Extracted structured fields
+- Removed malformed log entries
+- converted numeric fields to appropriate data types
+- Generated a cleaned dataset for analysis
+
 ## Analysis performed
 - Peak Traffic Hours
 - Most Frequently Accessed URLS
 - Distribution of HTTP status code
 - Average response size
+
+## Visualization
+Data visualization was performed using Power BI/Tableau.
+Dashboards were created to show traffic patterns,frequently accessed URLs,and server response statistics.
 
 ## Future scope
 Future improvements include implementing real time log monitoring and anomaly detection using Streaming frameworks such as Apache Kafka and saprk streaming.
