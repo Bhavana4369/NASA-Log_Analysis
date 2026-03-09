@@ -25,6 +25,7 @@ Fields extracted:
 ## Technologgies used
 - Python
 - Pyspark
+- Apache Spark
 - Jupyter notebook
 - Github
 
