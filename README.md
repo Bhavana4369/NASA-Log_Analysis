@@ -4,12 +4,12 @@
 This project analyses NASA web server logs using PYSPARK
 The goal is to convert raw log entries in to structured data and perform the analysis to understand website traffic pattern.
 ## Team members
-- Data preprocessing(Pyspark)
+Bhavana - Data preprocessing(Pyspark)
 - Data Analysis
 - Visualizations & report
 
 ## Dataset
-Dataset used-NASA wen server Logs(August 1995)
+Dataset used-NASA web server Logs(August 1995)
 
 Raw log contains entries like: 
 piweba4y.prodigy.com - - [01/Aug/1995:00:00:10 -0400] "GET /images/launchmedium.gif HTTP/1.0" 200 11853
